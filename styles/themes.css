@@ -10,6 +10,9 @@
   --font-variable-weight-text: 400;
   --font-variable-weight-title: 700;
   --background-color: #fff;
+  --background-image: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),   
+  repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7, #1a1a1a);
 }
 
 :root.theme-dark {
@@ -18,9 +21,20 @@
   --font-variable-weight-text: 465;
   --font-variable-weight-title: 785;
   --background-color: #000;
+  --background-image: repeating-linear-gradient(to right, #000 0px 2px, transparent 2px 4px),   
+  repeating-linear-gradient(to bottom, #000 0px 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #007f0c, #004306);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --font-color: rgb(0 204 20);
+    --font-active-accent: rgb(0 204 20 / 0.6);
+    --font-variable-weight-text: 465;
+    --font-variable-weight-title: 785;
+    --background-color: #000;
+    --background-image: repeating-linear-gradient(to right, #000 0px 2px, transparent 2px 4px),   
+    repeating-linear-gradient(to bottom, #000 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
     }
 }

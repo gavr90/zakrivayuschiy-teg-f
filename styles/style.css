@@ -6,7 +6,6 @@
 ✦ like-icon — для svg-иконки анимированного сердца
 ✦ card__like-button — для кнопки Like рядом с иконкой
 ✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
@@ -16,11 +15,32 @@
 
 .page {
   min-inline-size: 320px;
+  max-inline-size: 696px;
   min-block-size: 100dvb;
-  background-color: var(--background-color);
+  margin: 102px auto 105px;
   font-family: var(--font-family-basic);
   font-variation-settings: var(--font-variable-weight-text);
   color: var(--font-color);
+  background-image: var(--background-image);
+  background-position: cover;
+}
+
+.header {
+  min-inline-size: 100%;
+  min-block-size: 232px;
+  border: #000 solid 2px;
+  padding: clamp(7.5rem, 7.17rem + 1.408vw, 8.438rem) 0 25px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family-accent);
+  text-transform: uppercase;
+}
+
+.card {
+  border: #000 solid 2px;
+  background-color: var(--background-color);
 }
 
 
