@@ -118,6 +118,8 @@
 
 .card__image-container {
   position: relative;
+  border-top: var(--themes-main-color) solid 2px;
+  border-bottom: var(--themes-main-color) solid 2px;
 }
 
 .card__image {
