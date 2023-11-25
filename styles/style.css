@@ -20,7 +20,7 @@
   margin: 102px auto 105px;
   font-family: var(--font-family-basic);
   font-variation-settings: var(--font-variable-weight-text);
-  color: var(--font-color);
+  color: var(--themes-main-color);
   background-image: var(--background-image);
   background-position: cover;
 }
@@ -28,7 +28,8 @@
 .header {
   min-inline-size: 100%;
   min-block-size: 232px;
-  border: #000 solid 2px;
+  margin-block-end: 104px;
+  border: var(--themes-main-color) solid 2px;
   padding: clamp(7.5rem, 7.17rem + 1.408vw, 8.438rem) 0 25px;
   background-color: var(--background-color);
   display: flex;
@@ -38,9 +39,117 @@
   text-transform: uppercase;
 }
 
-.card {
-  border: #000 solid 2px;
-  background-color: var(--background-color);
+.title {
+  margin-block-end: 20px;
+  font-size: var(--title-size)
 }
 
+.subtitle {
+  margin-block-end: 25px;
+  font-size: var(--subtitle-size)
+}
+
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.theme-menu__button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-size: var(--font-accent-size);
+  text-transform: uppercase;
+}
+
+.theme-menu__button:disabled::before {
+  content: "▶";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: -15px;
+}
+
+.card {
+  border: var(--themes-main-color) solid 2px;
+  background-color: var(--background-color);
+  margin-block-end: 50px;
+}
+
+.card__title {
+  padding: 6px 10px;
+  font-size: var(--font-basic-size);
+  font-weight: var(--font-variable-weight-title); 
+}
+
+.card__image {
+  inline-size: 100%;
+  object-fit: cover;
+}
+
+.card__content {
+  padding: 25px;
+}
+
+.card__content_text {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 25px;
+  font-size: var(--font-basic-size);
+  font-weight: var(--font-variable-weight-text); 
+  gap: 27px;
+}
+
+.card__content_buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.card__icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.card__like-button {
+  block-size: 38px;
+  inline-size: 130px;
+  padding: 9px 17px;
+  border: var(--themes-main-color) solid 2px;
+  background-color: transparent;
+}
+
+.button__text {
+  font-family: var(--font-family-accent);
+  font-size: var(--font-accent-size);
+  line-height: 90%;
+}
+
+.footer__button {
+  margin: 0 auto;
+  padding: 15px;
+  min-inline-size: 306px;
+  max-inline-size: 335px;
+  border: var(--themes-main-color) solid 2px;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.svg-image {
+  block-size: 21px;
+  inline-size: 21px;
+}
+
+@media (width <= 376px) {
+  .footer__button {
+    flex-direction: column;
+  }
+
+  .svg-image {
+    block-size: 28px;
+    inline-size: 28px;
+  }
+}
 

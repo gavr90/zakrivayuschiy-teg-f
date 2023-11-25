@@ -2,5 +2,17 @@
 :root {
   --font-family-basic: 'Inter-Variable', sans-serif;
   --font-family-accent: 'PressStart2P', sans-serif;
+  --font-basic-size: 18px;
+  --font-accent-size: 14px;
+  --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  --subtitle-size; clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --themes-main-color: rgb(0 0 0);
+  --font-active-color: rgb(0 0 0 / 0.6);
+  --font-variable-weight-text: 400;
+  --font-variable-weight-title: 700;
+  --background-color: #fff;
+  --background-image: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),   
+  repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7, #1a1a1a);
 }
 
