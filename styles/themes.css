@@ -5,36 +5,42 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-  --themes-main-color: rgb(0 0 0);
-  --font-active-color: rgb(0 0 0 / 0.6);
+  --themes-main-color: #000;
   --font-variable-weight-text: 400;
   --font-variable-weight-title: 700;
   --background-color: #fff;
+  --label-outline-color: #fff;
+  --button-accent-color: #fff;
   --background-image: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),   
   repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
   linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --heart-contour-color: #000;
 }
 
 :root.theme-dark {
-  --themes-main-color: rgb(0 204 20);
-  --font-active-color: rgb(0 204 20 / 0.6);
+  --themes-main-color: #00CC14;
   --font-variable-weight-text: 465;
   --font-variable-weight-title: 785;
   --background-color: #000;
+  --label-outline-color: #000;
+  --button-accent-color: #00CC14;
   --background-image: repeating-linear-gradient(to right, #000 0px 2px, transparent 2px 4px),   
   repeating-linear-gradient(to bottom, #000 0px 2px, transparent 2px 4px),
   linear-gradient(to bottom, #007f0c, #004306);
+  --heart-contour-color: #00CC14;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --themes-main-color: rgb(0 204 20);
-    --font-active-color: rgb(0 204 20 / 0.6);
+    --themes-main-color: #00CC14;
     --font-variable-weight-text: 465;
     --font-variable-weight-title: 785;
     --background-color: #000;
+    --label-outline-color: #000;
+    --button-accent-color: #00CC14;
     --background-image: repeating-linear-gradient(to right, #000 0px 2px, transparent 2px 4px),   
     repeating-linear-gradient(to bottom, #000 0px 2px, transparent 2px 4px),
     linear-gradient(to bottom, #007f0c, #004306);
-    }
+    --heart-contour-color: #00CC14;
+  }
 }
