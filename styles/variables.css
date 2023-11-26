@@ -26,12 +26,6 @@
   --42px-to-32px: clamp(2.625rem, 2.845rem + -0.939vw, 2rem);
 }
 
-.popup__image {
-  --floppy-width: 38px;
-  --floppy-height: 38px;
-}
-
-
 @media (width <= 376px) {
   .svg-image {
     --floppy-width: 38px;

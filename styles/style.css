@@ -15,13 +15,11 @@
 
 .page {
   inline-size: var(--page-inline-size);
-  min-block-size: 100dvb;
   margin: 100px auto 105px;
   font-family: var(--font-family-basic);
-  font-variation-settings: var(--font-variable-weight-text);
+  font-variation-settings: "wght" var(--font-variable-weight-text);
   color: var(--themes-main-color);
   background-image: var(--background-image);
-  background-position: cover;
 }
 
 .header {
@@ -40,12 +38,12 @@
 
 .title {
   margin-block-end: 20px;
-  font-size: var(--title-size)
+  font-size: var(--title-size);
 }
 
 .subtitle {
   margin-block-end: 25px;
-  font-size: var(--subtitle-size)
+  font-size: var(--subtitle-size);
 }
 
 .theme-menu__list {
@@ -76,11 +74,11 @@
 }
 
 .theme-menu__button::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   inset-inline-start: 0;
-  inset-block-end: 0;
+  inset-block-end: -2px;
   border-bottom: solid 2px;
   transform: scaleX(0);
   transform-origin: 0;
@@ -101,7 +99,7 @@
   position: absolute;
   inset-block-start: 0;
   inset-inline-start: -17px;
-  animation: swing .5s ease-in-out infinite alternate;
+  animation: swing 0.5s ease-in-out infinite alternate;
 }
 
 .card {
@@ -113,7 +111,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: var(--font-basic-size);
-  font-weight: var(--font-variable-weight-title);
+  font-variation-settings: "wght" var(--font-variable-weight-title);
 }
 
 .card__image-container {
@@ -135,9 +133,8 @@
   font-family: var(--font-family-accent);
   font-size: var(--font-accent-size);
   text-transform: uppercase;
-  text-shadow: 1px 0 1px var(--label-outline-color), 
-    0 1px 1px var(--label-outline-color), 
-    -1px 0 1px var(--label-outline-color), 
+  text-shadow: 1px 0 1px var(--label-outline-color),
+    0 1px 1px var(--label-outline-color), -1px 0 1px var(--label-outline-color),
     0 -1px 1px var(--label-outline-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -167,7 +164,7 @@
 
 .card__text {
   font-size: var(--font-basic-size);
-  font-weight: var(--font-variable-weight-text); 
+  font-variation-settings: "wght" var(--font-variable-weight-text);
   line-height: 116.667%;
 }
 
@@ -231,7 +228,7 @@
 }
 
 .button-animated::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -271,7 +268,7 @@
 }
 
 .popup::backdrop {
-  background-color: rgb(0, 0, 0, 0.75)
+  background-color: rgb(0, 0, 0, 0.75);
 }
 
 .popup__content {
