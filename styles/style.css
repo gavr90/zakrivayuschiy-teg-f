@@ -88,7 +88,7 @@
 }
 
 .theme-menu__button:focus-visible::after {
-  transform: scaleX(1);  
+  transform: scaleX(1);
 }
 
 .theme-menu__button:disabled {
@@ -113,7 +113,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: var(--font-basic-size);
-  font-weight: var(--font-variable-weight-title); 
+  font-weight: var(--font-variable-weight-title);
 }
 
 .card__image-container {
@@ -155,7 +155,7 @@
 }
 
 .sparks {
-  opacity: 0;  
+  opacity: 0;
 }
 
 .card__text-container {
@@ -240,7 +240,7 @@
   inset-block-end: 0;
   transform: scaleX(0);
   transform-origin: 0;
-  transition: transform 0.5s ease-in-out; 
+  transition: transform 0.5s ease-in-out;
 }
 
 .button-animated:hover::before {
