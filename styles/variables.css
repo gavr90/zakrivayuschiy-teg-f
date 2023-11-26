@@ -4,8 +4,10 @@
   --font-family-accent: 'PressStart2P', sans-serif;
   --font-basic-size: 18px;
   --font-accent-size: 14px;
+  --page-inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+  --header-block-size: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
   --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-  --subtitle-size; clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --subtitle-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
   --themes-main-color: rgb(0 0 0);
   --font-variable-weight-text: 400;
   --font-variable-weight-title: 700;
@@ -17,5 +19,25 @@
   linear-gradient(to bottom, #e7e7e7, #1a1a1a);
   --heart-contour-color: #000;
   --heart-main-color: #ff0000;
+  --floppy-width: 21px;
+  --floppy-height: 21px;
+  --23px-to-25px: clamp(0.688rem, 0.379rem + 1.315vw, 1.563rem);
+  --11px-to-25px: clamp(0.688rem, 0.379rem + 1.315vw, 1.563rem);
+  --42px-to-32px: clamp(2.625rem, 2.845rem + -0.939vw, 2rem);
 }
+
+.popup__image {
+  --floppy-width: 38px;
+  --floppy-height: 38px;
+}
+
+
+@media (width <= 376px) {
+  .svg-image {
+    --floppy-width: 38px;
+    --floppy-height: 38px;
+  }
+}
+
+
 
