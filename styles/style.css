@@ -20,6 +20,7 @@
   font-variation-settings: "wght" var(--font-variable-weight-text);
   color: var(--themes-main-color);
   background-image: var(--background-image);
+  overflow-x: hidden;
 }
 
 .header {
