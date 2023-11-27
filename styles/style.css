@@ -20,7 +20,6 @@
   font-variation-settings: "wght" var(--font-variable-weight-text);
   color: var(--themes-main-color);
   background-image: var(--background-image);
-  overflow-x: hidden;
 }
 
 .header {
@@ -332,6 +331,10 @@
 }
 
 @media (width <= 376px) {
+  .page {
+    inline-size: 375px;
+  }
+
   .footer__button {
     flex-direction: column;
     inline-size: 310px;
