@@ -334,7 +334,7 @@
   text-transform: uppercase;
 }
 
-@media (width <= 375px) {
+@media (width <= 380px) {
   .page {
     inline-size: 100%;
   }
