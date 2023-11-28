@@ -14,7 +14,9 @@
 */
 
 .page {
+  min-inline-size: 320px;
   inline-size: var(--page-inline-size);
+  min-block-size: 100dvb;
   margin: 100px auto 105px;
   font-family: var(--font-family-basic);
   font-variation-settings: "wght" var(--font-variable-weight-text);
@@ -334,14 +336,26 @@
   text-transform: uppercase;
 }
 
-@media (width <= 450px) {
+@media (max-width: 376px) {
+  .page {
+    inline-size: var(--page-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  }
+
+  .title {
+    font-size: var(--title-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  }
+
   .footer__button {
     flex-direction: column;
-    inline-size: 310px;
+    inline-size: clamp(18.75rem, 4.568rem + 70.909vw, 21.188rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   }
 
   .svg-image {
     block-size: 28px;
     inline-size: 28px;
+  }
+
+  .popup {
+    inline-size: var(--popup-inline-size-mob-solution);
   }
 }
