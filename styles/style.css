@@ -332,7 +332,7 @@
 
 @media (width <= 376px) {
   .page {
-    inline-size: 375px;
+    inline-size: 100%;
   }
 
   .footer__button {
