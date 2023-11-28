@@ -15,7 +15,6 @@
 
 .page {
   min-inline-size: 320px;
-  inline-size: var(--page-inline-size);
   min-block-size: 100dvb;
   margin: 100px auto 105px;
   font-family: var(--font-family-basic);
@@ -26,8 +25,9 @@
 }
 
 .header {
+  inline-size: var(--page-inline-size);
   block-size: var(--header-block-size);
-  margin-block-end: 100px;
+  margin: 0 auto 100px;
   border: var(--themes-main-color) solid 2px;
   padding: 0 0 25px;
   background-color: var(--background-color);
@@ -106,9 +106,10 @@
 }
 
 .card {
+  inline-size: var(--page-inline-size);
+  margin: 0 auto 50px;
   border: var(--themes-main-color) solid 2px;
   background-color: var(--background-color);
-  margin-block-end: 50px;
 }
 
 .card__title {
@@ -337,10 +338,6 @@
 }
 
 @media (max-width: 376px) {
-  .page {
-    inline-size: var(--page-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
-  }
-
   .title {
     font-size: var(--title-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
   }
@@ -348,6 +345,14 @@
   .footer__button {
     flex-direction: column;
     inline-size: var(--footer-button-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  }
+
+  .header {
+    inline-size: var(--page-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  }
+
+  .card {
+    inline-size: var(--page-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
   }
 
   .svg-image {
