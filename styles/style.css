@@ -293,7 +293,6 @@
 
 .popup {
   margin: auto auto;
-  min-inline-size: 341px;
   max-inline-size: 357px;
   background-color: var(--background-color);
   padding: 30px var(--42px-to-32px);
@@ -336,10 +335,6 @@
 }
 
 @media (width <= 450px) {
-  .page {
-    inline-size: 100%;
-  }
-
   .footer__button {
     flex-direction: column;
     inline-size: 310px;
