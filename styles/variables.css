@@ -7,7 +7,6 @@
   --page-inline-size: clamp(25rem, 17.788rem + 28.846vw, 43.75rem);
   --header-block-size: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
   --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-  --title-size-mob-solution: clamp(1.875rem, -2.813rem + 25vw, 3.063rem);
   --subtitle-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
   --themes-main-color: rgb(0 0 0);
   --font-variable-weight-text: 400;
