@@ -298,6 +298,7 @@
 .popup {
   margin: auto auto;
   max-inline-size: 357px;
+  border: var(--themes-main-color) solid 2px;
   background-color: var(--background-color);
   padding: 30px var(--42px-to-32px);
 }
