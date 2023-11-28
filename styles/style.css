@@ -292,6 +292,7 @@
 }
 
 .popup {
+  margin: auto auto;
   min-inline-size: 341px;
   max-inline-size: 357px;
   background-color: var(--background-color);
@@ -334,7 +335,7 @@
   text-transform: uppercase;
 }
 
-@media (width <= 380px) {
+@media (width <= 450px) {
   .page {
     inline-size: 100%;
   }
