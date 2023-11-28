@@ -20,7 +20,7 @@
   font-variation-settings: "wght" var(--font-variable-weight-text);
   color: var(--themes-main-color);
   background-image: var(--background-image);
-  background-position: cover;
+  background-size: cover;
 }
 
 .header {
