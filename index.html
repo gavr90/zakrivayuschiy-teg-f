@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <title>Закрывающий тег</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <link rel="icon" href="./images/favicon.ico" sizes="any" />
-    <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="title">&lt;/html&gt;</h1>
-      <h2 class="subtitle">закрывающий тег</h2>
+      <a class="logo">&lt;/html&gt;</a>
+      <h1 class="title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
+            <button 
+              type="button" 
+              data-theme="dark" 
+              class="theme-menu__button"
+            >
               Темно
             </button>
           </li>
@@ -39,7 +43,11 @@
             </button>
           </li>
           <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
+            <button 
+              type="button" 
+              data-theme="light" 
+              class="theme-menu__button"
+            >
               Светло
             </button>
           </li>
@@ -48,9 +56,9 @@
     </header>
     <main class="main">
       <section class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/1_choice.avif" type="image/avif" />
@@ -75,7 +83,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button"
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -108,14 +119,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button"
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/2_desert.avif" type="image/avif" />
@@ -143,7 +157,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button"
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -176,14 +193,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">1 спринт: А если не получится?</h3>
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/3_dark-place.avif" type="image/avif" />
@@ -209,7 +229,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -242,14 +265,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/4_hard-task.avif" type="image/avif" />
@@ -278,7 +304,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -311,14 +340,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/5_master_padavan.avif" type="image/avif" />
@@ -346,7 +378,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -379,14 +414,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/6_mistake.avif" type="image/avif" />
@@ -412,7 +450,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -445,14 +486,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <source srcset="./images/7_concentrate.avif" type="image/avif" />
@@ -479,7 +523,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -512,14 +559,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
       <section class="card">
-        <h3 class="card__title">«Сейчас я здесь»</h3>
+        <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__image-container">
           <picture class="card__image">
             <img
@@ -546,7 +596,10 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button is-liked">
+            <button 
+              type="button" 
+              class="card__icon-button is-liked"
+            >
               <svg
                 class="like-icon"
                 width="39"
@@ -579,17 +632,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button button-animated">
+            <button 
+              type="button" 
+              class="card__like-button button-animated"
+            >
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer">
-      <button
-        class="footer__button button-animated"
-        type="button"
+      <button type="button" 
+        class="button button-animated" 
         onclick="window['insert_floppy_disk'].showModal()"
         aria-controls="insert_floppy_disk"
       >
@@ -605,15 +658,15 @@
           </svg>
           <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
         </div>
-        <button
-          class="popup__button button-animated"
-          type="button"
+        <button 
+          type="button" 
+          class="popup__button button-animated" 
           onclick="window['insert_floppy_disk'].close()"
         >
           <span class="button__text">ок</span>
         </button>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

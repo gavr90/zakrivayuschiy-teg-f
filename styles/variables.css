@@ -1,16 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-family-basic: 'Inter-Variable', sans-serif;
+  --font-family-basic: 'Inter', sans-serif;
   --font-family-accent: 'PressStart2P', sans-serif;
   --font-basic-size: 18px;
   --font-accent-size: 14px;
   --page-inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
   --page-inline-size-mob-solution: clamp(20rem, 0rem + 100vw, 23.438rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --header-block-size: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
-  --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-  --title-size-mob-solution: clamp(2.625rem, 0.08rem + 12.727vw, 3.063rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
-  --subtitle-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
-  --footer-button-inline-size-mob-solution: clamp(18.75rem, 4.568rem + 70.909vw, 21.188rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  --logo-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  --logo-size-mob-solution: clamp(2.625rem, 0.08rem + 12.727vw, 3.063rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
+  --title-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --button-inline-size-mob-solution: clamp(18.75rem, 4.568rem + 70.909vw, 21.188rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --popup-inline-size-mob-solution: clamp(18.75rem, 3.841rem + 74.545vw, 21.313rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --themes-main-color: rgb(0 0 0);
   --font-variable-weight-text: 400;
