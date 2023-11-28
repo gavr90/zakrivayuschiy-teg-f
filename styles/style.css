@@ -347,7 +347,7 @@
 
   .footer__button {
     flex-direction: column;
-    inline-size: clamp(18.75rem, 4.568rem + 70.909vw, 21.188rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
+    inline-size: var(--footer-button-inline-size-mob-solution); /* для предотвращения горизонтального скролла на минимальном разрешении */
   }
 
   .svg-image {

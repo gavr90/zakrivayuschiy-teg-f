@@ -10,6 +10,7 @@
   --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
   --title-size-mob-solution: clamp(2.625rem, 0.08rem + 12.727vw, 3.063rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --subtitle-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --footer-button-inline-size-mob-solution: clamp(18.75rem, 4.568rem + 70.909vw, 21.188rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --popup-inline-size-mob-solution: clamp(18.75rem, 3.841rem + 74.545vw, 21.313rem); /* для предотвращения горизонтального скролла на минимальном разрешении */
   --themes-main-color: rgb(0 0 0);
   --font-variable-weight-text: 400;
