@@ -64,11 +64,11 @@
   font-size: var(--font-accent-size);
   text-transform: uppercase;
   transition: opacity 0.3s;
+  cursor: pointer;
 }
 
 .theme-menu__button:hover {
   opacity: 0.6;
-  cursor: pointer;
 }
 
 .theme-menu__button:focus {
@@ -231,6 +231,7 @@
   block-size: 38px;
   inline-size: 130px;
   padding: 9px 17px;
+  cursor: pointer;
 }
 
 .button__text {
@@ -241,10 +242,6 @@
   mix-blend-mode: difference;
 }
 
-.button__text:hover {
-  cursor: pointer;
-}
-
 .button {
   margin: 0 auto;
   padding: 15px;
@@ -253,6 +250,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .button-animated {
@@ -277,7 +275,6 @@
 
 .button-animated:hover::before {
   transform: scaleX(1);
-  cursor: pointer;
 }
 
 .button-animated:focus {
@@ -333,6 +330,7 @@
   block-size: 38px;
   inline-size: 100%;
   padding: 9px 17px;
+  cursor: pointer;
 }
 
 .popup__button .button__text {
